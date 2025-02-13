@@ -131,7 +131,7 @@ blueprint:
               multiline: false
               multiple: true
           default:
-            - "(reproduce|pon) [(el|la|a|al|a la) ][(artista|banda|grupo) ]{media_name} [(en|usando) [el|la ]{area_or_player_name}][ (con|usando) {radio_mode}]"
+            - "(reproduce|pon) [(el|la|a|al|a la) ](artista|banda|grupo) {media_name} [(en|usando) [el|la ]{area_or_player_name}][ (con|usando) {radio_mode}]"
         radio_trigger:
           name: Activador de radio
           description: Las frases de activación para solicitar una estación de radio específica.
